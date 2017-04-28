@@ -52,8 +52,8 @@ mavenNode {
         itestPattern = localItestPattern
       }
 
-      stage('Rollout to Stage')
-      kubernetesApply(environment: envStage)
+      //stage('Rollout to Stage')
+      //kubernetesApply(environment: envStage)
 
     }
   }
